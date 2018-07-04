@@ -1,0 +1,84 @@
+
+
+body{
+    background-image: url(backgrounds.jpg!d);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.jumbotron {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(102, 202, 233);
+    color: white;
+    font-size: 50px;
+    width: 66%;
+    margin-left: 16.5%;
+    opacity: .5;
+}
+
+.panel-default {
+    width: 66%;
+    margin-left: 16.5%;
+    background-color:  rgb(102, 202, 233);
+    opacity: .7;
+}
+
+.panel-heading {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.col-lg-8 {
+    
+margin-left: 16.5%;
+    
+}
+
+.card, .card-default {
+    background-color:  rgb(102, 202, 233);
+    opacity: .8;
+    
+    border: solid;
+    border-width: .5px;
+    border-color: rgb(176, 168, 230);
+    color: white;
+}
+
+td {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(70, 70, 80);
+
+}
+
+hr {
+    width: 66%;
+}
+
+.card-title {
+    padding: 5px;
+    margin-left: 40%;
+}
+
+#clock {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#add-train {
+    font-weight: bold;
+    margin-left: 40%;
+    background-color: rgb(206, 233, 87);
+}
+
+label {
+    font-weight: bold;
+}
+
+#span {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
