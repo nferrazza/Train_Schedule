@@ -67,7 +67,7 @@
     var timeNow = moment().format("hh:mm");
     console.log("CURRENT TIME: " + timeNow);
 
-    var firstTimeConverted = moment (firstTrain, "HH:mm").subtract(1, "years");
+    var firstTimeConverted = moment(firstTrain, "HH:mm").subtract(1, "years");
     console.log(firstTimeConverted);
 
     var diffTime = moment().diff(moment(firstTimeConverted), "minutes");
